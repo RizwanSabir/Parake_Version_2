@@ -1,0 +1,28 @@
+// vendor/other/module-54061.js — webpack module 54061
+// params: (e, t) = (module, exports, require)
+// require(<id> /* name */) marks which module is loaded; "external/*" are Node/Electron built-ins
+Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }),
+  (t.AI_MODEL_ID_ATTRIBUTE = "ai.model.id"),
+  (t.AI_OPERATION_ID_ATTRIBUTE = "ai.operationId"),
+  (t.AI_PROMPT_ATTRIBUTE = "ai.prompt"),
+  (t.AI_PROMPT_MESSAGES_ATTRIBUTE = "ai.prompt.messages"),
+  (t.AI_PROMPT_TOOLS_ATTRIBUTE = "ai.prompt.tools"),
+  (t.AI_RESPONSE_FINISH_REASON_ATTRIBUTE = "ai.response.finishReason"),
+  (t.AI_RESPONSE_OBJECT_ATTRIBUTE = "ai.response.object"),
+  (t.AI_RESPONSE_PROVIDER_METADATA_ATTRIBUTE = "ai.response.providerMetadata"),
+  (t.AI_RESPONSE_TEXT_ATTRIBUTE = "ai.response.text"),
+  (t.AI_RESPONSE_TOOL_CALLS_ATTRIBUTE = "ai.response.toolCalls"),
+  (t.AI_SCHEMA_ATTRIBUTE = "ai.schema"),
+  (t.AI_TELEMETRY_FUNCTION_ID_ATTRIBUTE = "ai.telemetry.functionId"),
+  (t.AI_TOOL_CALL_ARGS_ATTRIBUTE = "ai.toolCall.args"),
+  (t.AI_TOOL_CALL_ID_ATTRIBUTE = "ai.toolCall.id"),
+  (t.AI_TOOL_CALL_NAME_ATTRIBUTE = "ai.toolCall.name"),
+  (t.AI_TOOL_CALL_RESULT_ATTRIBUTE = "ai.toolCall.result"),
+  (t.AI_USAGE_CACHED_INPUT_TOKENS_ATTRIBUTE = "ai.usage.cachedInputTokens"),
+  (t.AI_USAGE_COMPLETION_TOKENS_ATTRIBUTE = "ai.usage.completionTokens"),
+  (t.AI_USAGE_INPUT_TOKEN_DETAILS_ATTRIBUTE_PREFIX =
+    "ai.usage.inputTokenDetails."),
+  (t.AI_USAGE_PROMPT_TOKENS_ATTRIBUTE = "ai.usage.promptTokens"),
+  (t.AI_USAGE_TOKENS_ATTRIBUTE = "ai.usage.tokens"),
+  (t.AI_VALUES_ATTRIBUTE = "ai.values"),
+  (t.OPERATION_NAME_ATTRIBUTE = "operation.name");

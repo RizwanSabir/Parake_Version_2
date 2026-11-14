@@ -1,0 +1,26 @@
+// vendor/module-88516.js — webpack module 88516
+// params: (e, t) = (module, exports, require)
+"use strict";
+(t.GEN_AI_EMBEDDINGS_INPUT = "gen_ai.embeddings.input"),
+  (t.GEN_AI_INPUT_MESSAGES = "gen_ai.input.messages"),
+  (t.GEN_AI_OPERATION_NAME = "gen_ai.operation.name"),
+  (t.GEN_AI_PROVIDER_NAME = "gen_ai.provider.name"),
+  (t.GEN_AI_REQUEST_FREQUENCY_PENALTY = "gen_ai.request.frequency_penalty"),
+  (t.GEN_AI_REQUEST_MAX_TOKENS = "gen_ai.request.max_tokens"),
+  (t.GEN_AI_REQUEST_MODEL = "gen_ai.request.model"),
+  (t.GEN_AI_REQUEST_PRESENCE_PENALTY = "gen_ai.request.presence_penalty"),
+  (t.GEN_AI_REQUEST_TEMPERATURE = "gen_ai.request.temperature"),
+  (t.GEN_AI_REQUEST_TOP_K = "gen_ai.request.top_k"),
+  (t.GEN_AI_REQUEST_TOP_P = "gen_ai.request.top_p"),
+  (t.GEN_AI_SYSTEM_INSTRUCTIONS = "gen_ai.system_instructions"),
+  (t.GRAPHQL_DOCUMENT = "graphql.document"),
+  (t.HTTP_URL = "http.url"),
+  (t.SENTRY_SDK_NAME = "sentry.sdk.name"),
+  (t.SENTRY_SDK_VERSION = "sentry.sdk.version"),
+  (t.SENTRY_SEGMENT_ID = "sentry.segment.id"),
+  (t.SENTRY_SEGMENT_NAME = "sentry.segment.name"),
+  (t.SENTRY_TRACE_LIFECYCLE = "sentry.trace_lifecycle"),
+  (t.SENTRY_TRANSACTION = "sentry.transaction"),
+  (t.URL_FULL = "url.full"),
+  (t.URL_PATH = "url.path"),
+  (t.URL_QUERY = "url.query");

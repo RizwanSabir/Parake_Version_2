@@ -1,0 +1,50 @@
+class e extends AudioWorkletProcessor {
+  frameSize;
+  buffer = new Float32Array(0);
+  active = !0;
+  constructor(e) {
+    super();
+    const t = e?.processorOptions?.sampleRate ?? 16e3;
+    (this.frameSize = Math.floor(t / 100)),
+      (this.port.onmessage = (e) => {
+        "stop" === e.data && (this.active = !1),
+          "reset" === e.data && (this.buffer = new Float32Array(0));
+      });
+  }
+  process(e) {
+    const t = e[0]?.[0];
+    if (!t || 0 === t.length) return this.active;
+    const s = new Float32Array(this.buffer.length + t.length);
+    for (
+      s.set(this.buffer), s.set(t, this.buffer.length), this.buffer = s;
+      this.buffer.length >= this.frameSize;
+
+    ) {
+      const e = this.buffer.slice(0, this.frameSize);
+      (this.buffer = this.buffer.slice(this.frameSize)),
+        this.port.postMessage(e, [e.buffer]);
+    }
+    return this.active;
+  }
+}
+registerProcessor("pcm-framer", e);
+export {};
+!(function () {
+  try {
+    var e =
+        "undefined" != typeof window
+          ? window
+          : "undefined" != typeof global
+            ? global
+            : "undefined" != typeof globalThis
+              ? globalThis
+              : "undefined" != typeof self
+                ? self
+                : {},
+      n = new e.Error().stack;
+    n &&
+      ((e._sentryDebugIds = e._sentryDebugIds || {}),
+      (e._sentryDebugIds[n] = "045cdcef-2a89-5187-8644-482488a7c7ce"));
+  } catch (e) {}
+})();
+//# debugId=045cdcef-2a89-5187-8644-482488a7c7ce

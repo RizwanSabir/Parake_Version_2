@@ -1,0 +1,47 @@
+// vendor/module-96394.js — webpack module 96394
+// params: (e, t, n) = (module, exports, require)
+n.d(t, { captureNodeSizes: () => s });
+var o = n(79456 /* vendor/module-79456 */);
+function i() {
+  if ("undefined" != typeof globalThis) return globalThis;
+}
+function a() {
+  return "undefined" == typeof location
+    ? "browser-dev"
+    : `${location.pathname}${location.search}`;
+}
+function r(e, t) {
+  const n = i();
+  if (!n) return;
+  const o = t.node(),
+    a = (o && "ownerSVGElement" in o ? o.ownerSVGElement : null) ?? o,
+    r = a?.id ?? "(unknown)";
+  n.mermaidCapturedSizes ??= [];
+  const s = { svgId: r, sizes: e };
+  n.mermaidCapturedSizes.push(s), (n.mermaidLastCapturedSizes = s);
+}
+function s(e, t) {
+  const n = [];
+  for (const e of t.nodes)
+    e.isGroup ||
+      n.push({ id: e.id, width: e.width ?? 0, height: e.height ?? 0 });
+  0 !== n.length &&
+    r(
+      {
+        metadata: {
+          captureVersion: 1,
+          capturedAt: new Date().toISOString(),
+          capturedFrom: a(),
+        },
+        nodes: n,
+      },
+      e,
+    );
+}
+(0, o.K)(i, "getCaptureGlobal"),
+  (0, o.K)(function () {
+    return Boolean(i()?.mermaidCaptureSizes);
+  }, "shouldCaptureSizes"),
+  (0, o.K)(a, "capturedFromLocation"),
+  (0, o.K)(r, "emitCapturedSizes"),
+  (0, o.K)(s, "captureNodeSizes");

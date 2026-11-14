@@ -1,0 +1,55 @@
+// vendor/module-9608.js — webpack module 9608
+// params: (e, t, n) = (module, exports, require)
+"use strict";
+t.sanitizeSchema = void 0;
+const r = n(98686 /* vendor/module-98686 */);
+t.sanitizeSchema = {
+  ...r.defaultSchema,
+  tagNames: [
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "p",
+    "br",
+    "hr",
+    "strong",
+    "em",
+    "del",
+    "s",
+    "a",
+    "img",
+    "ul",
+    "ol",
+    "li",
+    "blockquote",
+    "pre",
+    "code",
+    "table",
+    "thead",
+    "tbody",
+    "tr",
+    "th",
+    "td",
+    "input",
+    "div",
+    "span",
+    "sup",
+    "sub",
+  ],
+  attributes: {
+    a: ["href"],
+    img: ["src", "alt"],
+    input: ["type", "checked", "disabled"],
+    code: [["className", /^language-/, "math-inline", "math-display"]],
+    td: ["align"],
+    th: ["align"],
+    "*": [],
+  },
+  protocols: {
+    href: ["http", "https", "mailto"],
+    src: ["http", "https", "data"],
+  },
+};

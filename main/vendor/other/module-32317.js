@@ -1,0 +1,37 @@
+// vendor/other/module-32317.js — webpack module 32317
+// params: (e, t) = (module, exports, require)
+// require(<id> /* name */) marks which module is loaded; "external/*" are Node/Electron built-ins
+Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }),
+  (t.CLIENT_ADDRESS_ATTRIBUTE = "client.address"),
+  (t.CLIENT_PORT_ATTRIBUTE = "client.port"),
+  (t.MCP_FUNCTION_ORIGIN_VALUE = "auto.function.mcp_server"),
+  (t.MCP_LOGGING_DATA_TYPE_ATTRIBUTE = "mcp.logging.data_type"),
+  (t.MCP_LOGGING_LEVEL_ATTRIBUTE = "mcp.logging.level"),
+  (t.MCP_LOGGING_LOGGER_ATTRIBUTE = "mcp.logging.logger"),
+  (t.MCP_LOGGING_MESSAGE_ATTRIBUTE = "mcp.logging.message"),
+  (t.MCP_METHOD_NAME_ATTRIBUTE = "mcp.method.name"),
+  (t.MCP_NOTIFICATION_CLIENT_TO_SERVER_OP_VALUE =
+    "mcp.notification.client_to_server"),
+  (t.MCP_NOTIFICATION_ORIGIN_VALUE = "auto.mcp.notification"),
+  (t.MCP_NOTIFICATION_SERVER_TO_CLIENT_OP_VALUE =
+    "mcp.notification.server_to_client"),
+  (t.MCP_PROMPT_NAME_ATTRIBUTE = "mcp.prompt.name"),
+  (t.MCP_PROMPT_RESULT_DESCRIPTION_ATTRIBUTE = "mcp.prompt.result.description"),
+  (t.MCP_PROMPT_RESULT_MESSAGE_COUNT_ATTRIBUTE =
+    "mcp.prompt.result.message_count"),
+  (t.MCP_PROTOCOL_VERSION_ATTRIBUTE = "mcp.protocol.version"),
+  (t.MCP_REQUEST_ARGUMENT = "mcp.request.argument"),
+  (t.MCP_REQUEST_ID_ATTRIBUTE = "mcp.request.id"),
+  (t.MCP_RESOURCE_URI_ATTRIBUTE = "mcp.resource.uri"),
+  (t.MCP_ROUTE_SOURCE_VALUE = "route"),
+  (t.MCP_SERVER_NAME_ATTRIBUTE = "mcp.server.name"),
+  (t.MCP_SERVER_OP_VALUE = "mcp.server"),
+  (t.MCP_SERVER_TITLE_ATTRIBUTE = "mcp.server.title"),
+  (t.MCP_SERVER_VERSION_ATTRIBUTE = "mcp.server.version"),
+  (t.MCP_SESSION_ID_ATTRIBUTE = "mcp.session.id"),
+  (t.MCP_TOOL_NAME_ATTRIBUTE = "mcp.tool.name"),
+  (t.MCP_TOOL_RESULT_CONTENT_COUNT_ATTRIBUTE = "mcp.tool.result.content_count"),
+  (t.MCP_TOOL_RESULT_IS_ERROR_ATTRIBUTE = "mcp.tool.result.is_error"),
+  (t.MCP_TRANSPORT_ATTRIBUTE = "mcp.transport"),
+  (t.NETWORK_PROTOCOL_VERSION_ATTRIBUTE = "network.protocol.version"),
+  (t.NETWORK_TRANSPORT_ATTRIBUTE = "network.transport");

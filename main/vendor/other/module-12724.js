@@ -1,0 +1,36 @@
+// vendor/other/module-12724.js — webpack module 12724
+// params: (e, t) = (module, exports, require)
+// require(<id> /* name */) marks which module is loaded; "external/*" are Node/Electron built-ins
+Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }),
+  (t.GEN_AI_CONVERSATION_ID_ATTRIBUTE = "gen_ai.conversation.id"),
+  (t.SEMANTIC_ATTRIBUTE_CACHE_HIT = "cache.hit"),
+  (t.SEMANTIC_ATTRIBUTE_CACHE_ITEM_SIZE = "cache.item_size"),
+  (t.SEMANTIC_ATTRIBUTE_CACHE_KEY = "cache.key"),
+  (t.SEMANTIC_ATTRIBUTE_EXCLUSIVE_TIME = "sentry.exclusive_time"),
+  (t.SEMANTIC_ATTRIBUTE_HTTP_REQUEST_METHOD = "http.request.method"),
+  (t.SEMANTIC_ATTRIBUTE_PROFILE_ID = "sentry.profile_id"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_CUSTOM_SPAN_NAME = "sentry.custom_span_name"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_ENVIRONMENT = "sentry.environment"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_IDLE_SPAN_FINISH_REASON =
+    "sentry.idle_span_finish_reason"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_UNIT = "sentry.measurement_unit"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_MEASUREMENT_VALUE = "sentry.measurement_value"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_OP = "sentry.op"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_ORIGIN = "sentry.origin"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_PREVIOUS_TRACE_SAMPLE_RATE =
+    "sentry.previous_trace_sample_rate"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_RELEASE = "sentry.release"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SAMPLE_RATE = "sentry.sample_rate"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SDK_INTEGRATIONS = "sentry.sdk.integrations"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SDK_NAME = "sentry.sdk.name"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SDK_VERSION = "sentry.sdk.version"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SEGMENT_ID = "sentry.segment.id"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SEGMENT_NAME = "sentry.segment.name"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE = "sentry.source"),
+  (t.SEMANTIC_ATTRIBUTE_SENTRY_STATUS_MESSAGE = "sentry.status.message"),
+  (t.SEMANTIC_ATTRIBUTE_URL_FULL = "url.full"),
+  (t.SEMANTIC_ATTRIBUTE_USER_EMAIL = "user.email"),
+  (t.SEMANTIC_ATTRIBUTE_USER_ID = "user.id"),
+  (t.SEMANTIC_ATTRIBUTE_USER_IP_ADDRESS = "user.ip_address"),
+  (t.SEMANTIC_ATTRIBUTE_USER_USERNAME = "user.name"),
+  (t.SEMANTIC_LINK_ATTRIBUTE_LINK_TYPE = "sentry.link.type");
